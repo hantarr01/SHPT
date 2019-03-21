@@ -1,0 +1,23 @@
+{
+  "name": "dawf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hantarr01/The-website-on-the-PSD-model.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hantarr01/The-website-on-the-PSD-model/issues"
+  },
+  "homepage": "https://github.com/hantarr01/The-website-on-the-PSD-model#readme",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^3.4.0",
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}
