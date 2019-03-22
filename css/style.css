@@ -112,6 +112,8 @@ header{
 }
 /*search stop*/
 
+
+
 .dropDownMenu{
   text-align: left; 
   width: 100%;
@@ -142,6 +144,5 @@ header{
   .stellarnav > ul > li > a {
    padding: 20px 23px; }
 }
-
 
 /*dropdown stop*/
