@@ -10,14 +10,14 @@ header{
 }
 
 .nav-wrapper{
-  background-color:#0fa8a6;
+  background-color:#002147;
   display: table;
   width: 100%;
   text-shadow: none;
 }
 
 .sidenav{
-  background-color: #0dada3;
+  background-color: #00397a;
 }
 
 .mobileLogo{
@@ -26,12 +26,13 @@ header{
 }
 
 #searchMobile{
-  background-color:#075453;
+  background-color:#002147;
 }
 
 .brand-logo{
-  margin-left:5px;
+  margin-left:50px;
 }
+
 
 /*search start*/
 .search{ 
@@ -146,3 +147,56 @@ header{
 }
 
 /*dropdown stop*/
+
+.mblLinks{
+  margin-top:-15px; 
+  line-height: 0.7;
+  width: 95%;
+  font-size:13px; 
+  text-align:left;
+  margin-left:5%; 
+}
+
+.margChild1{
+margin-left:10px; 
+}
+
+.margChild2{
+  margin-left:20px; 
+}
+
+.margChild2Marg{
+  margin-left:20px;
+  margin-bottom:25px; 
+}
+
+.margChld2Mrg{
+   margin-left:20px;
+  margin-bottom:5px; 
+}
+
+.main{
+  font-size:14px; 
+  line-height: 0.6;
+  margin-left:-5px;
+}
+
+.main1{
+  font-size:14px; 
+  line-height: 0.6;
+}
+
+.centerMenu{
+  float: left;
+  margin-left:2px;
+  height: 100px;
+  width: 200px;
+}
+
+.lineH{
+  line-height: 1;
+}
+
+.safeBlock{
+  margin-top:-30px; 
+}
