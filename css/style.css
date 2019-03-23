@@ -149,7 +149,7 @@ header{
 /*dropdown stop*/
 
 .mblLinks{
-  margin-top:-15px; 
+  margin-top:10px; 
   line-height: 0.7;
   width: 95%;
   font-size:13px; 
@@ -199,4 +199,69 @@ margin-left:10px;
 
 .safeBlock{
   margin-top:-30px; 
+}
+
+footer{
+  display: table;
+  color:#f0f8ff;
+  margin-top:-6px; 
+  width:100%;
+  background-color:#002147;
+}
+
+footer a,p {
+  color:#039be5; 
+}
+
+.quickLinks{
+  float: left;
+  margin-top:50px;
+  margin-left:15%;
+  padding:10px; 
+  width:265px;
+  height: 270px;
+}
+
+.fontFooter{
+  font-size:23px; 
+}
+
+.brdVerticalFooter{
+  padding-left:5%; 
+  border-right: 2px solid #f0f8ff;
+}
+
+.brdGorizontalCentFooter{
+  float: left;
+  width:80%;
+  margin-left:10%; 
+  border-bottom:2px solid  #f0f8ff; 
+}
+
+
+.formPlace{
+  float: left;
+  margin:50px;
+  margin-left:15%;
+  width:250px;
+  text-align: left;  
+}
+
+.submFooter{
+  border: none;
+  background-color:#002147;
+  color:#f0f8ff;
+}
+
+.txAreaFooter{
+  border:none;
+  background-color:#f0f8ff; 
+  width:250px;
+}
+
+.ReservFooter{
+  float:left;
+  margin-top:20px;
+  margin-left:10%;
+  font-size:10px; 
 }
