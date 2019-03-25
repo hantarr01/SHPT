@@ -39,6 +39,7 @@ header{
   position: relative;
   top:10px;  
   float:right;
+  height:64px; 
   width: 300px;
 }
 .magnifying-glass {
@@ -113,7 +114,27 @@ header{
 }
 /*search stop*/
 
+#hovDropMenu:hover{
+  background: rgba(0,0,0,.1);
+}
 
+#hovDropMenu a:hover{
+  background: rgba(0,0,0,.1);
+  color:white;
+}
+
+.hovDropMenu:hover{
+  background: rgba(0,0,0,.1);
+}
+
+.hovDropMenu a:hover{
+  background: rgba(0,0,0,.1);
+  color:white;
+}
+
+.right{
+  height:60px;
+}
 
 .dropDownMenu{
   text-align: left; 
@@ -150,8 +171,9 @@ header{
 
 .mblLinks{
   margin-top:10px; 
-  line-height: 0.7;
+  line-height: 0.85;
   width: 95%;
+  font-weight:0.7; 
   font-size:13px; 
   text-align:left;
   margin-left:5%; 
@@ -186,8 +208,27 @@ margin-left:10px;
   line-height: 0.6;
 }
 
+.upMenu{
+  margin-top:-20px; 
+  margin-left:2px;
+  height: 100px;
+  width: 200px;
+}
+
+.EvangelisticMenu{
+  margin-left:15px;
+  padding-bottom: 20px;
+}
+
 .centerMenu{
-  float: left;
+  margin-top:40px; 
+  margin-left:2px;
+  height: 100px;
+  width: 200px;
+}
+
+.downMenu{
+  margin-top:-20px; 
   margin-left:2px;
   height: 100px;
   width: 200px;
@@ -198,7 +239,177 @@ margin-left:10px;
 }
 
 .safeBlock{
-  margin-top:-30px; 
+  margin-top:20px; 
+}
+
+.news-block{
+  width:100%;
+  display: table;
+}
+.news-block a{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color:inherit;
+}
+.news-block a:hover{
+  color:#ce0220;
+}
+.news-block-name{
+  width:400px;
+  height:100px;
+  margin-top:-35px;
+}
+.news-block-name h5{
+  float:left;
+  margin-left: 3%;
+  margin-top: 48px;
+  font-family: 'PT Sans', sans-serif;
+}
+.news-block h3{
+  float:left;
+  border-right: 1px solid gray;
+}
+.news-block img{
+  width:330px;
+  height:200px;
+}
+.news-one{
+  width:330px;
+  height:250px;
+  float:left;
+  margin-left:4.5%;
+  margin-top: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.news-one a{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color:inherit;
+}
+.news-one:hover{
+  color:#ce0220;
+}
+.news{
+  width: 350px;
+  height: 200px;
+  float:left;
+  margin-left: 5%;
+  margin-top: 50px;
+  text-align: right;
+}
+.news a{
+  float:left;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color:inherit;
+  margin-top:25px;
+}
+.news p{
+  float:right;
+  margin-top: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.news h5{
+  float:right;
+  margin-top:2px;
+  font-family: 'PT Sans', sans-serif;
+  
+}
+.news a:hover{
+  color:#ce0220;
+}
+.banners{
+  width:100%;
+  display: table;
+  background-color: #c9c9c9;
+  border-top:1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.banners h3{
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+}
+.banner-one{
+  width:300px;
+  height:250px;
+  float:left;
+  margin-left: 7.5%;
+  margin-top: 20px;
+}
+.banner-one img{
+  width:300px;
+  height:192px;
+}
+.banner-one a{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color:inherit;
+  text-align: center;
+}
+.banner-one a:hover{
+  color:#ce0220;
+}
+.banner-two{
+  width:300px;
+  height:250px;
+  float:left;
+  margin-left: 7.5%;
+  margin-top: 20px;
+
+}
+.banner-two img{
+  width:300px;
+  height: 196px;
+}
+.banner-two a{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color:inherit;
+  text-align: center;
+}
+.banner-two a:hover{
+  color:#ce0220;
+}
+.banner-three{
+  width:300px;
+  height:250px;
+  float:left;
+  margin-left: 7.5%;
+  margin-top: 20px;
+}
+.banner-three img{
+  width:300px;
+  height: 196px;
+}
+.banner-three a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color:inherit;
+  text-align: center;
+}
+.banner-three a:hover{
+  color:#ce0220;
+}
+.banner-four{
+  width:300px;
+  height:250px;
+  float:left;
+  margin-left: 7.5%;
+  margin-top: 20px;
+}
+.banner-four img{
+  width:300px;
+  height: 196px;
+}
+.banner-four a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color:inherit;
+  text-align: center;
+}
+.banner-four a:hover{
+  color:#ce0220;
 }
 
 footer{
@@ -238,13 +449,22 @@ footer a,p {
   border-bottom:2px solid  #f0f8ff; 
 }
 
+.downFooter{
+  width: 100%;
+  float: left;
+}
+
+.headDwnFooter{
+  margin-top:30px; 
+  text-align: center;
+}
 
 .formPlace{
-  float: left;
-  margin:50px;
-  margin-left:15%;
+  float: left; 
+  margin-top:50px;
+  margin-left:20%;
   width:250px;
-  text-align: left;  
+  text-align:left;  
 }
 
 .submFooter{
